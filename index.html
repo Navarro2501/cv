@@ -5,12 +5,17 @@
 		<title>f e r n a n d o</title>
 	</head>
 	<body>
-    <!--This is the syntax in order to add images to your website. src is for the source, and alt for the alternative text in case we cannot display the picture-->
-    <img src="https://i.pinimg.com/originals/36/18/15/3618155b835042339ce140a85977e906.jpg" alt="Jormungundr-Midgard-serpent">
-		<hr size='6' noshade>
-		<h1>Fernando Navarro</h1>
+    <table cellspacing='20'>
+      <tr>
+        <td><img src="https://i.pinimg.com/originals/36/18/15/3618155b835042339ce140a85977e906.jpg" alt="Jormungundr-Midgard-serpent"></td>
+        <td><h1>Fernando Navarro</h1>
 		<p><i><b>Web developer student</b></i></p>
-		<p>Hello, I'm a 22 year old geek and programming enthusiast, still in progress :D</p>
+		<p>Hello, I'm a 22 year old geek and programming enthusiast, still in progress :D</p></td>
+      </tr>
+    </table>
+    <!--This is the syntax in order to add images to your website. src is for the source, and alt for the alternative text in case we cannot display the picture:
+    <img src="https://i.pinimg.com/originals/36/18/15/3618155b835042339ce140a85977e906.jpg" alt="Jormungundr-Midgard-serpent">-->
+		<hr size='6' noshade>
 		<hr size='6' noshade>
 		<h3>Education</h3>
     <!--The <ul> tags stand for 'unordered list' we can actually nest them inside each other-->
@@ -30,6 +35,71 @@
 				<li><i>Techincal degree in chemical processes (2012 - 2016)</i></li>
 			</ul>
 		</ul>
+    <!--This is the syntax to create a table. Next to it we have the attribute 'border', which gives marked borders to the table.-->
+    <hr size='3' noshade>
+    <h3>Work Experience</h3>
+    <table border='1'>
+      <!--In case we want to have stationary headers, we add the thead element as we see below-->
+      <thead>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>     
+      <!--We use 'tr' to create table rows-->
+      <tr>
+        <!--We use 'td' to create pillars on our table, one for each pillar.-->
+        <td>2018-2019</td>
+        <td><b>CSG at Protrans</b></td>
+      </tr>
+      <tr>
+        <td>2017-2018</td>
+        <td><b>Sitel enterprises</b></td>
+      </tr>
+    </table>
+    <hr size='3' noshade>   
+    <h3>Skills</h3>
+    <!--Now we're creating a nested table to list our skills-->
+    <!--Exterior table start-->
+    <table border='1' cellspacing='10'>
+      <!--Row start-->
+      <tr>
+        <!--Left column start-->
+        <td>
+          <!--Inside table start-->
+          <table cellspacing='5'>
+            <!--table first row-->
+            <tr>
+              <td>Laboratory processing</td>
+              <td>&#10025 &#10025 &#10025 &#10025 &#10025</td>
+            </tr>
+            <!--table second row-->
+            <tr>
+              <td>Math Fun Facts</td>
+              <td>&#10025 &#10025</td>
+            </tr>
+          </table>
+         </td>
+         <!--Right column start-->
+         <td>
+          <!--Inside table start-->
+           <table cellspacing='5'>
+            <!--table first row-->
+            <tr>
+             <td>CNC Machinery skills</td>
+             <td>&#10025 &#10025 &#10025</td>
+            </tr>
+            <!--table second row-->
+            <tr>
+             <td>Movies Fun Facts</td>
+             <td>&#10025 &#10025 &#10025 &#10025</td>
+            </tr>
+          </table>
+        </td>
+      </tr>      
+    </table>      
     <!--The <ol> tags stand for 'ordered lists', and as the unordered lists, we can nest them inside each other -->
     <a href="hobbies.html"><h3>My hobbies</h3></a>
     <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download>Download HTML Cheatsheet</a>
