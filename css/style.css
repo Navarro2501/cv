@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+}
+
+p{
+  color: white;
+}
+h1{
+  color: #0d7377;
+}
+h3{
+  color: #0d7377;
+}
+li{
+  color: white;
+}
+thead{
+  color: #535a3b;
+}
+td{
+  color: white;
+}
+a{
+  color: grey;
+}
+hr{        
+ border-style: none;
+ border-top-style: dotted;
+ border-color: #14ffec;
+ border-height: 50px;
+ border-width:5px;
+ height: 0px;
+ width: 10%;
+}
